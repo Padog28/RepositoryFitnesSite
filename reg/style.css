@@ -1,5 +1,5 @@
  body{
-    background: white;
+    background: #575656;
     font-family: Playfair Display;
 /*    background: url("photo_2022-11-05_21-51-12.jpg"); */
     align-items: center;
@@ -7,16 +7,37 @@
 .header{
     height: 60px;   
     width: auto;
-    background: black;
+    background: #575656;
+}
+.aboutus{
+    display: flex;
+    height: 60px;
+    width: 1050px;
+    float: right;
+    background: #575656;
+    padding-left: 30px ;
+    margin-left: 30%;
+}
+.sq{
+    color: #d1cccc;
+    padding-left: 20px;
+}
+.alllink{
+    font-size: 24px;
+    color: #d1cccc;
 }
 .GW{
     width: 100px;
     height: 60px;
     background: rebeccapurple;
-    font-size: 30px;
-    color: blanchedalmond;
+    font-size: 28px;
     line-height: 10%;
     position: absolute;
+    padding-left: 5px;
+}
+.lnk{
+line-height: 100%;
+color: #d1cccc;
 }
 .pass{
     height: 40px;
@@ -30,6 +51,7 @@
     height: 40px;
     width: 150px;
     border-radius: 20px;
+    background: #d1cccc;
 }
 .email{    
     height: 40px;
@@ -52,4 +74,16 @@
 .create{
     position: relative;
     top: 100px;
+}
+a:hover{
+color: black;
+animation: clr 0.5s;
+}
+@keyframes clr{
+from{
+    color: #d1cccc;
+}
+to{
+    color: black;
+}
 }
