@@ -1,5 +1,5 @@
  body{
-    background: #575656;
+    background: #353535;
     font-family: Playfair Display;
 /*    background: url("photo_2022-11-05_21-51-12.jpg"); */
     align-items: center;
@@ -22,6 +22,10 @@
     color: #d1cccc;
     padding-left: 20px;
 }
+.forgot{
+    position: relative;
+    top: 60px;
+}
 .alllink{
     font-size: 24px;
     color: #d1cccc;
@@ -41,7 +45,7 @@ color: #d1cccc;
 }
 .pass{
     height: 40px;
-    width: 150px;
+    width: 190px;
     border-radius: 20px;
     background: url("pass.png") no-repeat scroll 7px 7px #d1cccc;
     background-size: 20px;
@@ -55,27 +59,41 @@ color: #d1cccc;
 }
 .email{    
     height: 40px;
-    width: 150px;
+    width: 190px;
     border-radius: 20px;
     background: url("email.png") no-repeat scroll 7px 7px #d1cccc;
     background-position:8px;
     background-size: 20px;
     padding-left: 30px;
 }
+.regi{
+    font-size: 24px;
+    color: #d1cccc;
+    
+}
 .cool{
     width: 600px;
     height: 400px;
     margin-top: 200px;
     margin-left: 300px;
-    background: #d1cccc;
-    border-radius: 90px; ;
+    background: url("dumbbells-woman-exercise.jpg") rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, .5);
+    background-size: 880px;
+    border-radius: 80px; ;
     align-items: center;
 }
 .create{
     position: relative;
-    top: 100px;
+    top: 80px;
 }
-a:hover{
+a{
+    color: #d1cccc;
+}
+.lnk:hover{
+color: black;
+animation: clr 0.5s;
+}
+.sq:hover{
 color: black;
 animation: clr 0.5s;
 }
