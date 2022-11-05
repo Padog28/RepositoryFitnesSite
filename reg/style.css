@@ -1,6 +1,7 @@
  body{
-    background: #353535;
+    background: linear-gradient(90deg, #363636 0%, #68686b 35%, #a8a9aa 100%);
     font-family: Playfair Display;
+    height: 100%;
 /*    background: url("photo_2022-11-05_21-51-12.jpg"); */
     align-items: center;
 }
@@ -22,8 +23,13 @@
     color: #d1cccc;
     padding-left: 20px;
 }
+.Entrance:hover{
+    background-color: #9b9b9b;
+    color: #363636;
+}
 .forgot{
     position: relative;
+    color: #9b9b9b;
     top: 60px;
 }
 .alllink{
@@ -47,7 +53,7 @@ color: #d1cccc;
     height: 40px;
     width: 190px;
     border-radius: 20px;
-    background: url("pass.png") no-repeat scroll 7px 7px #d1cccc;
+    background: url("pass.png") no-repeat scroll 7px 7px #b8b5b5;
     background-size: 20px;
     padding-left: 30px;
 }
@@ -55,13 +61,13 @@ color: #d1cccc;
     height: 40px;
     width: 150px;
     border-radius: 20px;
-    background: #d1cccc;
+    background: #b8b5b5;
 }
 .email{    
     height: 40px;
     width: 190px;
     border-radius: 20px;
-    background: url("email.png") no-repeat scroll 7px 7px #d1cccc;
+    background: url("email.png") no-repeat scroll 7px 7px #b8b5b5;
     background-position:8px;
     background-size: 20px;
     padding-left: 30px;
@@ -85,17 +91,24 @@ color: #d1cccc;
 .create{
     position: relative;
     top: 80px;
+    color: #9b9b9b;
+}
+.forgot:hover{
+color: white;
+}
+.create:hover{
+    color: white;
 }
 a{
     color: #d1cccc;
 }
 .lnk:hover{
 color: black;
-animation: clr 0.5s;
+animation: clr 0.4s;
 }
 .sq:hover{
 color: black;
-animation: clr 0.5s;
+animation: clr 0.4s;
 }
 @keyframes clr{
 from{
