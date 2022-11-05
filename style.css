@@ -5,15 +5,12 @@ body{
     position: absolute;
 }
 .block1{
-    width: 1920;
-    height: 1000px;
+    width: 1900;
+    height: 1200px;
     background-color: black;
-    margin: 0 -20px 0 0;
+    margin: -10px 0 0 -10px;
 }
 .imgMain{
-    width: 1920px;
+    width: 1900px;
     height: 920px;
-}
-.d{
-    width: 10px;
 }
