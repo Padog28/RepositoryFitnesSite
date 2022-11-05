@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     background: #F2F2F2;
     max-width: 1920px;
     height: 7170px;
