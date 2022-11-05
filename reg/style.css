@@ -1,10 +1,55 @@
-body{
-    background: url("photo_2022-11-05_21-51-12.jpg");
+ body{
+    background: white;
+    font-family: Playfair Display;
+/*    background: url("photo_2022-11-05_21-51-12.jpg"); */
     align-items: center;
 }
+.header{
+    height: 60px;   
+    width: auto;
+    background: black;
+}
+.GW{
+    width: 100px;
+    height: 60px;
+    background: rebeccapurple;
+    font-size: 30px;
+    color: blanchedalmond;
+    line-height: 10%;
+    position: absolute;
+}
+.pass{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background: url("pass.png") no-repeat scroll 7px 7px #d1cccc;
+    background-size: 20px;
+    padding-left: 30px;
+}
+.Entrance{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+.email{    
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background: url("email.png") no-repeat scroll 7px 7px #d1cccc;
+    background-position:8px;
+    background-size: 20px;
+    padding-left: 30px;
+}
 .cool{
-    width: 500px;
-    height: 500px;
-    margin-top: 250px;
+    width: 600px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 300px;
+    background: #d1cccc;
+    border-radius: 90px; ;
     align-items: center;
+}
+.create{
+    position: relative;
+    top: 100px;
 }
