@@ -5,6 +5,11 @@ body{
     margin: 10px auto;
     padding: 30px;
 }
+.imgMain{
+    width: 1920px;
+    height: 923px;
+    top: 107px;
+}
 h1{
     color: #4C4C4C;
     padding-bottom: 20px;
