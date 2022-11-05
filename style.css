@@ -5,6 +5,11 @@ body{
     margin: 10px auto;
     padding: 30px;
 }
+.block1{
+    width: 1920;
+    height: 1000px;
+    background-color: black;
+}
 .imgMain{
     width: 1920px;
     height: 923px;
