@@ -1,6 +1,7 @@
 body{
     background: #F2F2F2;
     max-width: 1920px;
+    position: absolute;
     height: 7170px;
     margin: 10px auto;
     padding: 30px;
