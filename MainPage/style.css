@@ -142,3 +142,9 @@ to{
     display: inline-block;
     width: 150px;
 }
+.hr {
+    border: none; /* Убираем границу */
+    background-color: #797878; /* Цвет линии */
+    color: #797878; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
