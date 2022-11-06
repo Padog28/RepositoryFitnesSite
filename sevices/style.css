@@ -1,0 +1,13 @@
+body{
+    background: black;
+    font-family: Playfair Display;
+    height: 100%;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;   
+    background: #575656;
+}
