@@ -1,5 +1,5 @@
 body{
-    max-width: 1920px;
+    width: 100%;
     overflow-x: hidden;
     background: white;
     height: 7170px;
@@ -128,7 +128,7 @@ to{
     height: 700px;
     width: 900px;
     padding-left: 250px;
-    margin-top: -60px;
+    margin-top: -20%;
 }
 .info{ 
     position: absolute;
