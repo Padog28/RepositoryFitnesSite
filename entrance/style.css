@@ -54,7 +54,7 @@ color: #d1cccc;
     height: 40px;
     width: 190px;
     border-radius: 20px;
-    background: url("pass.png") no-repeat scroll 7px 7px #b8b5b5;
+    background: url("pictures/pass.png") no-repeat scroll 7px 7px #b8b5b5;
     background-size: 20px;
     padding-left: 30px;
 }
@@ -68,7 +68,7 @@ color: #d1cccc;
     height: 40px;
     width: 190px;
     border-radius: 20px;
-    background: url("email.png") no-repeat scroll 7px 7px #b8b5b5;
+    background: url("pictures/email.png") no-repeat scroll 7px 7px #b8b5b5;
     background-position:8px;
     background-size: 20px;
     padding-left: 30px;
