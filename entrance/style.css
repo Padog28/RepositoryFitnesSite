@@ -13,7 +13,7 @@
 .aboutus{
     display: flex;
     height: 60px;
-    width: 1050px;
+    width: 1000px;
     float: right;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
     padding-left: 30px ;
@@ -107,11 +107,9 @@ a{
     color: #d1cccc;
 }
 .lnk:hover{
-color: black;
 animation: clr 0.4s;
 }
 .sq:hover{
-color: black;
 animation: clr 0.4s;
 }
 @keyframes clr{
