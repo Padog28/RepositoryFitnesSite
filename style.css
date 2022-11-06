@@ -80,6 +80,21 @@ to{
     font-weight: bold;
     line-height: 50%;
 } 
+.buttonMore{
+    position: relative;
+    top: 450px;
+    left: 70%;
+    width: 300px;
+    height: 100px;
+    border: black 1px solid;
+    background-color: white;
+    font-size: 48px;
+}
+.linkMore{
+    padding: 40px 0 0 40px;
+    color: #2A487C;
+    text-decoration: none;
+}
 .sas{
     padding-left: 100px;
 }
