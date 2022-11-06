@@ -98,7 +98,6 @@ to{
     padding: 0 0 0 20px;
     color: #2A487C;
     text-decoration: none;
-
 }
 .hallimg{
     display: inline-block;
@@ -116,7 +115,7 @@ to{
 }
 .info2{
     text-align: center;
-    margin-top: -200px; 
+    margin-top: -300px; 
     width: 1300px;
 }
 .img2{
@@ -144,8 +143,8 @@ to{
     width: 150px;
 }
 .hr {
-    border: none; /* Убираем границу */
-    background-color: #797878; /* Цвет линии */
-    color: #797878; /* Цвет линии для IE6-7 */
-    height: 2px; /* Толщина линии */
+    border: none;
+    background-color: #797878; 
+    color: #797878; 
+    height: 2px;
 }
