@@ -1,21 +1,32 @@
 body{
-    width: 100%;
+    max-width: 1920px;
     overflow-x: hidden;
     background: white;
     height: 7170px;
     position: absolute;
 }
 .block1{
-    height: 920px;
-    width: 105%;
+    height: 1080px;
+    width: 1920px;
     background-color: black;
     margin: -10px 0 0 -10px;
 }
+.block2{
+    height: 920px;
+    width: 105%;
+    background-color: white;
+    margin: 100px 0 0 0px;
+}
+.block3{
+    height: 920px;
+    width: 105%;
+    background-color: white;
+}
 .imgMain{
-    padding-left: 10%;
-    width: 75%;
+    padding-left: 9%;
+    width: 80%;
     height: 750px;
-    margin-top: -220px;
+    margin-top: -170px;
 }
 .header{
     height: 80px;   
@@ -106,29 +117,31 @@ to{
 .buttonMore:hover .linkMore{
     color: #2A487C;
 }
-.hallimg{
+.img2{
     display: inline-block;
     position: relative;
-    left: 150%;
+    left: 120%;
     top: -330px;
+}
+.img3{
+    height: 700px;
+    width: 900px;
+    padding-left: 250px;
+    margin-top: -60px;
 }
 .info{ 
     position: absolute;
     height: 270px;
     width: 600px;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: 80px ;
     font-size: 25px;
 }
 .info2{
     text-align: center;
-    margin-top: -300px; 
+    margin-top: -300px;
+    margin-left: -80px;
     width: 1300px;
-}
-.img2{
-    padding-left: 60px;
-    width: 60px;
-    height: 60px;
 }
 .txt1{
     text-justify: newspaper;
