@@ -1,25 +1,26 @@
 body{
     width: 100%;
     overflow-x: hidden;
-    background: #F2F2F2;
+    background: white;
     height: 7170px;
     position: absolute;
 }
 .block1{
     height: 920px;
-    width: 100%;
+    width: 105%;
     background-color: black;
     margin: -10px 0 0 -10px;
 }
 .imgMain{
-    width: 100%;
+    padding-left: 10%;
+    width: 75%;
     height: 750px;
     margin-top: -220px;
 }
 .header{
-    height: 60px;   
+    height: 80px;   
     width: auto;
-    background: #575656;
+    background: black;
 }
 .aboutus{
     margin-top: 10px;
@@ -41,7 +42,7 @@ body{
 .GW{
     width: 100px;
     height: 60px;
-    background: #000000;
+    background: black;
     font-size: 28px;
     line-height: 10%;
     position: absolute;
@@ -95,31 +96,24 @@ to{
     color: #2A487C;
     text-decoration: none;
 }
-.P1{
-    font-size: 50px;
-}
-.p2{
-    font-size: 38px;
-}
 .info{ 
     position: absolute;
-    height: 550px;
+    height: 270px;
     width: 600px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 80px ;
     font-size: 25px;
 }
-.info1{
-    padding-right: 100px;
+.info2{
+    text-align: center;
+    margin-top: -200px; 
+    width: 1300px;
 }
 .hallimg{
+    display: inline-block;
     position: relative;
-    left: 660px;
-    top: 30px;
-}
-.img1{
-    width: 540px;
-    height: 420px;
+    left: 150%;
+    top: -330px;
 }
 .img2{
     padding-left: 60px;
@@ -132,24 +126,16 @@ to{
     text-align-last: justify;
 }
 .bus{
-    width: 100px;
+    padding-right: 100px;
+    width: 200px;
     display: inline-block;
-    text-align: center;
-}
-.img3{
-    width: 50px;
 }
 .dum{
+    padding-right: 100px;
     display: inline-block;
-     width: 100px;
-    text-align: center;
+    width: 200px;
 }
 .arm{
     display: inline-block;
-    width: 100px;
-    text-align: center;
-}
-.helpme{
-    width: 600px;
-    height: 200px;
+    width: 150px;
 }
