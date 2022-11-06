@@ -21,19 +21,9 @@ body{
     height: 80px;   
     width: auto;
     background: black;
-}
-.aboutus{
-    margin-top: 10px;
-    display: flex;
-    height: 60px;
-    width: 1000px;
-    float: right;
-    background: rgb(0, 0, 0);
-}
-.alllink{
-    padding-top: 25px;
-    font-size: 24px;
-    color: #d1cccc;
+    position: fixed;
+    z-index: 3;
+    background: black;
 }
 .GW{
     width: 100px;
@@ -51,6 +41,20 @@ body{
 .GWlink:hover{
     color: #797878;
     animation: clr 0.4s;
+}
+.aboutus{
+    margin-top: 10px;
+    display: flex;
+    height: 60px;
+    width: 1000px;
+    float: right;
+    background: rgb(0, 0, 0);
+    margin-left: 50%;
+}
+.alllink{
+    padding-top: 25px;
+    font-size: 24px;
+    color: #d1cccc;
 }
 .sq{
     color: #d1cccc;
