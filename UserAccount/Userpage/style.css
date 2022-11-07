@@ -71,3 +71,80 @@ body{
     background: #b6b6b6;
     color: #a91c1c;
 }
+.button1:hover{
+    background: white;
+}
+.button2:hover{
+    background: white;
+    color: #b70101;
+}
+.aboutus{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
+    margin-left: 10%;
+    font-size: 24px;
+    color: #9b9b9b;
+}
+.footer{
+	height: 80px;
+    background: #575656;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footlnk{
+    font-size: 18px;
+}
+.footlnk:hover{
+    color: black;
+}
+.sq{
+    color: #d1cccc;
+    padding-left: 40px;
+}
+.forgot{
+    position: relative;
+    color: #9b9b9b;
+    top: 60px;
+}
+.GW{
+    width: 10%;
+    height: 60px;
+    background: #575656;
+    font-size: 28px;
+    line-height: 10%;
+    padding-left: 5px;
+}
+.GWlink{
+    line-height: 100%;
+    color: #d1cccc;
+}
+.GWlink:hover{
+    color: #797878;
+    animation: clr 0.4s;
+}
+.lnk{
+line-height: 100%;
+color: #d1cccc;
+}
+a{
+    color: #d1cccc;
+}
+.lnk:hover{
+animation: clr 0.4s;
+}
+.sq:hover{
+animation: clr 0.4s;
+}
+@keyframes clr{
+from{
+    color: #d1cccc;
+}
+to{
+    color: black;
+}
+}
