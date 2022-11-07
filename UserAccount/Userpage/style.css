@@ -102,3 +102,49 @@ body{
 .footlnk:hover{
     color: black;
 }
+.sq{
+    color: #d1cccc;
+    padding-left: 40px;
+}
+.forgot{
+    position: relative;
+    color: #9b9b9b;
+    top: 60px;
+}
+.GW{
+    width: 10%;
+    height: 60px;
+    background: #575656;
+    font-size: 28px;
+    line-height: 10%;
+    padding-left: 5px;
+}
+.GWlink{
+    line-height: 100%;
+    color: #d1cccc;
+}
+.GWlink:hover{
+    color: #797878;
+    animation: clr 0.4s;
+}
+.lnk{
+line-height: 100%;
+color: #d1cccc;
+}
+a{
+    color: #d1cccc;
+}
+.lnk:hover{
+animation: clr 0.4s;
+}
+.sq:hover{
+animation: clr 0.4s;
+}
+@keyframes clr{
+from{
+    color: #d1cccc;
+}
+to{
+    color: black;
+}
+}
