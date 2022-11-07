@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: auto;
     overflow-x: hidden;
     background: white;
     height: 7170px;
@@ -24,8 +24,17 @@ body{
 }
 .block4{
     width: 100%;
-    height: 920px;
-    padding-top: -20%;
+    height: 3000px;
+    background: #829096;
+    margin-top: -17%;
+    margin-left: -10px;
+}
+.miniBlocks{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    border-radius: 30px 30px 30px 30px;
+    background: #829096;
 }
 .imgMain{
     padding-left: 9%;
@@ -143,9 +152,8 @@ to{
 }
 .img5{
     width: 100%;
-    height: 1080px;
-    margin-top: -15%;
-    margin-left: -10px;
+    height: 1260px;
+    margin-top: 5%;
 }
 .info{ 
     position: absolute;
