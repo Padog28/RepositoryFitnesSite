@@ -40,3 +40,14 @@ body{
     width: 400px;
     height: 300px;
 }
+.info{
+    margin-top: 5%;
+    margin-left: 1%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.user_text{
+    font-size: 40px ;
+    color: #d1cccc;
+}
