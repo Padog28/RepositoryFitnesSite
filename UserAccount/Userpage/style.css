@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(90deg, #363636 0%, #68686b 35%, #a8a9aa 100%);
+    font-family: Playfair Display;
+    height: 100%;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;   
+    background: #575656;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
