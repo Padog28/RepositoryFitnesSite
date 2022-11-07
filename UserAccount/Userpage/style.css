@@ -71,3 +71,10 @@ body{
     background: #b6b6b6;
     color: #a91c1c;
 }
+.button1:hover{
+    background: white;
+}
+.button2:hover{
+    background: white;
+    color: #b70101;
+}
