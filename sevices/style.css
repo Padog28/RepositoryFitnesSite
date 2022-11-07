@@ -107,3 +107,18 @@ body{
         color: black;
     }
     }
+    .footer{
+        height: 80px;
+        background: #575656;
+    }
+    .footer_content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footlnk{
+        font-size: 18px;
+    }
+    .footlnk:hover{
+        color: black;
+    }
