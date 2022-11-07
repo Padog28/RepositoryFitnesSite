@@ -30,3 +30,80 @@ body{
     color: #d1cccc;
     padding-left: 40px;
 }
+.content {
+    min-height: calc(100vh - 150px);
+    flex: 1 0 auto;
+    display: flex;
+}
+.check{
+    margin-left: 8%;
+    margin-top: 2%;
+    color: #8f8c8c;
+}
+.sq{
+    color: #d1cccc;
+    padding-left: 40px;
+}
+.GW{
+    width: 10%;
+    height: 60px;
+    background: #575656;
+    font-size: 28px;
+    line-height: 10%;
+    padding-left: 5px;
+}
+.lnk{
+    line-height: 100%;
+    color: #d1cccc;
+    }
+    .pass{
+        height: 40px;
+        width: 190px;
+        border-radius: 20px;
+        background: url("pictures/pass.png") no-repeat scroll 7px 7px #b8b5b5;
+        background-size: 20px;
+        padding-left: 30px;
+    }
+    .Registration_button{
+        height: 40px;
+        width: 150px;
+        border-radius: 20px;
+        background: #b8b5b5;
+    }
+    .main_content{
+        width: 600px;
+        height: 450px;
+        margin-top: 100px;
+        margin-left: 300px;
+        background: url("pictures/dumbbells-woman-exercise.jpg");
+        background-size: 880px;
+        border-radius: 80px; ;
+        align-items: center;
+    
+    }
+    .forgot:hover{
+    color: white;
+    }
+    .Entrance:hover{
+        background-color: #9b9b9b;
+        color: #363636;}
+    .create:hover{
+        color: white;
+    }
+    a{
+        color: #d1cccc;
+    }
+    .lnk:hover{
+    animation: clr 0.4s;
+    }
+    .sq:hover{
+    animation: clr 0.4s;
+    }
+    @keyframes clr{
+    from{
+        color: #d1cccc;
+    }
+    to{
+        color: black;
+    }
+    }
