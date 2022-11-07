@@ -51,3 +51,23 @@ body{
     font-size: 40px ;
     color: #d1cccc;
 }
+.buttons{
+    padding-top: 1%;
+}
+.button1{
+    margin-left: 7%;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #b6b6b6;
+}
+.button2{
+    margin-left: 7%;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #b6b6b6;
+    color: #a91c1c;
+}
