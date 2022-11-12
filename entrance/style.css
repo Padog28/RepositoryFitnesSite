@@ -19,15 +19,17 @@
 }
 .content {
     min-height: calc(100vh - 150px);
-    flex: 1 0 auto;
     display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: space-around;
 }
 .aboutus{
     display: flex;
     height: 60px;
     width: 90%;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
 }
@@ -83,11 +85,9 @@ color: #d1cccc;
 .main_content{
     width: 600px;
     height: 450px;
-    margin-top: 10%;
-    margin-left: 35%;
     background: url("../pictures/dumbbells-woman-exercise.jpg");
     background-size: 880px;
-    border-radius: 80px; ;
+    border-radius: 80px; 
     align-items: center;
 
 }

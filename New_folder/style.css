@@ -20,6 +20,8 @@ body{
 .content {
     min-height: calc(100vh - 150px);
     flex: 1 0 auto;
+    align-items: center;
+    justify-content: space-around;
     display: flex;
 }
 .aboutus{
@@ -27,7 +29,7 @@ body{
     width: 90%;
     display: flex;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
 }
@@ -56,7 +58,7 @@ color: #d1cccc;
     height: 40px;
     width: 190px;
     border-radius: 20px;
-    background: url("pictures/pass.png") no-repeat scroll 7px 7px #b8b5b5;
+    background: url("../pictures/pass.png") no-repeat scroll 7px 7px #b8b5b5;
     background-size: 20px;
     padding-left: 30px;
 }
@@ -91,8 +93,6 @@ color: #d1cccc;
 .main_content{
     width: 600px;
     height: 450px;
-    margin-top: 100px;
-    margin-left: 300px;
     background: url("../pictures/dumbbells-woman-exercise.jpg");
     background-size: 880px;
     border-radius: 80px; ;
