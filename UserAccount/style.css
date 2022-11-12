@@ -47,6 +47,12 @@ body{
     width: 50%;
     flex-direction: column;
 }
+a{
+    color: #d1cccc;
+}
+.exit{
+    color: black;
+}
 .user_text{
     font-size: 40px ;
     color: #d1cccc;
@@ -75,8 +81,11 @@ body{
     background: white;
 }
 .button2:hover{
-    background: white;
-    color: #b70101;
+    background: rgb(169, 3, 3);
+    border: 1px red solid;
+}
+.button2:hover .exit{
+    color: black;
 }
 .aboutus{
     display: flex;
@@ -86,6 +95,19 @@ body{
     margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
+}
+.phone{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.phone_number{
+    color: #d1cccc;
+}
+.phone_link{
+    text-decoration: none;
 }
 .footer{
 	height: 80px;
@@ -130,9 +152,6 @@ body{
 .lnk{
 line-height: 100%;
 color: #d1cccc;
-}
-a{
-    color: #d1cccc;
 }
 .lnk:hover{
 animation: clr 0.4s;

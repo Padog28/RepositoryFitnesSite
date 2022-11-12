@@ -22,9 +22,22 @@ body{
     width: 90%;
     display: flex;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
+}
+.phone{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.phone_number{
+    color: #d1cccc;
+}
+.phone_link{
+    text-decoration: none;
 }
 .sq{
     color: #d1cccc;
