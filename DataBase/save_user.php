@@ -35,4 +35,7 @@
     //удаляем лишние пробелы
     $login = trim($login);
     $password = trim($password);
+
+    //подключаемся к базе
+    include ("db.php");
 ?>
