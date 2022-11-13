@@ -8,4 +8,14 @@
                     unset($login);
                } 
           } 
+          
+     //заносим введенный пользователем пароль в переменную $password, если он пустой, то уничтожаем переменную
+     if (isset($_POST['password'])) 
+          { 
+               $password=$_POST['password']; 
+               if ($password =='') 
+                    {
+                         unset($password);
+                    } 
+          }
 ?>
