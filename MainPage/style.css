@@ -2,8 +2,7 @@ body{
     width: auto;
     overflow-x: hidden;
     background: white;
-    height: 7170px;
-    position: absolute;
+    height: 5470px;
 }
 .wrapper {
     min-height: 100%;
@@ -13,30 +12,65 @@ body{
 }
 .block1{
     height: 1080px;
-    width: 1920px;
-    background-color: black;
-    margin: -10px 0 0 -10px;
+    background: black url("../pictures/eERXP9QgrMk.jpg") center/contain no-repeat;
 }
 .block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     height: 920px;
-    width: 105%;
     background-color: white;
     margin: 100px 0 0 0px;
 }
+.block2_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
 .block3{
     height: 920px;
-    width: 105%;
+    width: 100%;
     background-color: white;
+}
+.block3_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.block3_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
 }
 .block4{
     width: 100%;
-    height: 3000px;
+    height: 1500px;
     background: #829096;
-    margin-top: -17%;
-    margin-left: -10px;
+}
+.block4_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: url("../pictures/barbell.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+}
+.bloks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:  100%;
+
 }
 .miniBlocks{
-    position: relative;
     width: 500px;
     height: 250px;
     border-radius: 30px 30px 30px 30px;
@@ -77,19 +111,14 @@ body{
 .aboutus{
     display: flex;
     height: 80px;
-    width: 100%;
-    float: right;
-    padding-top: 3%;
+    width: 70%;
     background: rgb(0, 0, 0);
     align-items: center;
     justify-content: space-around;
-    margin-left: 5%;
-
     font-size: 35px;
     color: #d1cccc;
 }
 .phone{
-    margin-left: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,13 +126,20 @@ body{
 }
 .phone_number{
     color: #d1cccc;
+    font-size: 24px;
 }
 .phone_link{
     text-decoration: none;
+    font-size: 24px;
+    color:#d1cccc
 }
 .sq{
     color: #d1cccc;
     padding-left: 30px;
+}
+.phone_link:hover{
+    color: #797878;
+    animation: clr 0.4s;
 }
 .sq:hover{
     color: #797878;
@@ -154,22 +190,17 @@ to{
     color: #2A487C;
 }
 .img2{
-    display: inline-block;
-    position: relative;
-    left: 120%;
-    top: -330px;
+    width: 100%;
+    padding-left: 10%;
 }
 .img3{
     height: 700px;
     width: 900px;
     padding-left: 250px;
-    margin-top: -20%;
 }
 .img4{
     height: 700px;
     width: 900px;
-    padding-left: 45%;
-    margin-top: -27%;
 }
 .img5{
     width: 100%;
@@ -177,18 +208,24 @@ to{
     margin-top: 5%;
 }
 .info{ 
-    position: absolute;
-    height: 270px;
-    width: 600px;
-    margin-left: 350px;
-    margin-top: 80px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding-left: 20%;
+    width: 100%;
     font-size: 25px;
 }
 .info2{
     text-align: center;
-    margin-top: -300px;
-    margin-left: -80px;
     width: 1300px;
+}
+.info_text{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 .txt1{
     text-justify: newspaper;
@@ -214,4 +251,19 @@ to{
     background-color: #797878; 
     color: #797878; 
     height: 2px;
+}footer{
+	height: 80px;
+    background: #1e1c1c;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footlnk{
+    font-size: 18px;
+    color: #ffffff;
+}
+.footlnk:hover{
+    color: rgb(110, 108, 108);
 }

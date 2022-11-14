@@ -4,7 +4,7 @@ body{
     height: 100%;
     align-items: center;
 }
-.header{
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,23 +25,27 @@ body{
     display: flex;
 }
 .aboutus{
-    height: 60px;
-    width: 90%;
     display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
     margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
 }
 .phone{
-    margin-left: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    width:20%;
+    background: #a8a9aa;
+    height: 100%;
 }
 .phone_number{
     color: #d1cccc;
+    width: auto;
 }
 .phone_link{
     text-decoration: none;
@@ -81,6 +85,51 @@ color: #d1cccc;
     border-radius: 20px;
     background: #b8b5b5;
 }
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.inputs1{
+    padding-top: 2%;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.error_text{
+    background-color: #f1414f;
+    padding: 8px 0;
+    display: none  ;
+}
+.pass_and_mes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    height: 40px;
+    width: 190px;
+    border-radius: 20px;
+    background: #b8b5b5;
+    background-size: 20px;
+    padding-left: 30px;    
+}
+.user_name{
+    height: 40px;
+    width: 190px;
+    border-radius: 20px;
+    background: #b8b5b5;
+    background-size: 20px;
+    padding-left: 30px;
+}
+.registration{
+    font-size: 24px;
+    color: #d1cccc;
+    
+}
 .email{    
     height: 40px;
     width: 190px;
@@ -91,12 +140,16 @@ color: #d1cccc;
     padding-left: 30px;
 }
 .phone{
-    height: 40px;
-    width: 190px;
-    border-radius: 20px;
-    background: url("../pictures/phone.png") no-repeat scroll 7px 7px #b8b5b5;
-    background-size: 20px;
-    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.phone_number{
+    color: #d1cccc;
+}
+.phone_link{
+    text-decoration: none;
 }
 .registration{
     font-size: 24px;
@@ -128,9 +181,15 @@ a{
     color: #d1cccc;
 }
 .lnk:hover{
+    color: black;
 animation: clr 0.4s;
 }
+.phone_link:hover{
+    color: black;
+    animation: clr 0.4s;
+}
 .sq:hover{
+    color: black;
 animation: clr 0.4s;
 }
 @keyframes clr{

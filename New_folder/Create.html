@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
-    <link rel="icon" href="pictures/ico.ico">
+    <link rel="icon" href="../pictures/ico.ico">
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header>
           <div class="GW">
             <a class="lnk" style="text-decoration:none;" href="../MainPage/index.html">GW
                 Fitness
@@ -21,25 +21,44 @@
             <a class="sq" style="text-decoration:none;" href="../services/services.html">УСЛУГИ</a>
             <a class="sq" style="text-decoration:none;" href="">SPA</a>
             <a class="sq" style="text-decoration:none;" href="">АБОНИМЕНТЫ</a>
-            <a class="sq" style="text-decoration:none;" href="">ПРОГРАММЫ</a>
             <a class="sq" style="text-decoration:none;" href="">ТРЕНЕРЫ</a>
             <a class="sq" style="text-decoration:none; pointer-events: none;" href="">ВОЙТИ</a>
+          </div>
+          <div class="phone">
+             <div class="phone_number">+7(960)479-86-56</div>
+             <a href="" class="phone_link">Заказать звонок</a>
            </div>
-         </header>
+        </header>
      <div class="content">
         <div class="main_content">
          <form action="" onsubmit="window.open('../MainpageReg/index.html', '_self')" target="_blank">
             <center>
             <br>
             <p class="registration">Регистрация</p>
-            <input type="tel" class="phone" placeholder="Phone Number" required name="" id=""><br><br>
-            <input type="email" class="email" required placeholder="Email" name="email" id=""><br><br>
-            <input type="password" class="pass" required placeholder="Password" name="password" id=""><br><br><br>
+            <div class="inputs">
+                <div class="inputs1">
+                    <input type="text" pattern="^[А-Яа-яЁё\s]+${3}" class="user_name"  placeholder="ФИО" required name="" id="">
+                    <input type="email"  class="email" required placeholder="Email" name="email" id="">
+                </div>
+                <div class="inputs1">
+                    <input type="password" onkeyup="active()" id="pswrd_1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="pass" required placeholder="Password" name="password" id="">
+                    <div class="pass_and_mes">
+                        <form action="#">
+                            <div class="error_text">Confirm Password Not Match</div>
+                            <input type="password" id="pswrd_2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="pass" required placeholder="Replay password" name="Replay_password" id="">
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="inputs1">
+                    <input class="login" pattern="^[a-zA-Z]+$" type="text" required placeholder="Login" name="" id="">
+                </div>
+            </div>
             <div required class="check"> 
                 <input type="checkbox" required name="" id="">
                 <span>Согласие на обработку персональных данных</span>
             </div><br><br>
-                <button class="Entrance">Зарегестрироваться</button>
+                <button  class="Entrance">Зарегестрироваться</button>
             <a class="create" href="../entrance/entrance.html">Есть аккаунт? Войти →</a>
              </center>
         </form>

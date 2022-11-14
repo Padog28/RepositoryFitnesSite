@@ -35,7 +35,6 @@
     color: #9b9b9b;
 }
 .phone{
-    margin-left: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,13 +120,31 @@ color: white;
 a{
     color: #d1cccc;
 }
+.phone{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    width: 160px;
+    background: #a8a9aa;
+}
+.phone_number{
+    color: #d1cccc;
+}
+.phone_link{
+    text-decoration: none;
+}
 .lnk:hover{
+    color: black;
 animation: clr 0.4s;
 }
 .sq:hover{
+    color: black;
 animation: clr 0.4s;
 }
 .phone_link:hover{
+    color:black;
     animation: clr 0.4s;    
 }
 @keyframes clr{
@@ -138,7 +155,7 @@ to{
     color: black;
 }
 }
-.footer{
+footer{
 	height: 80px;
     background: #575656;
 }
