@@ -100,7 +100,7 @@ color: #d1cccc;
 }
 .error_text{
     background-color: #f1414f;
-    padding: 8px 0;
+    padding: 10px;
     display: none  ;
 }
 .pass_and_mes{
