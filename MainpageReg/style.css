@@ -12,6 +12,7 @@ body{
 }
 .block1{
     height: 1080px;
+    width: 1920px auto;
     background: black url("../pictures/eERXP9QgrMk.jpg")  center/contain no-repeat;
 }
 .block2{
@@ -31,21 +32,19 @@ body{
 }
 .block3{
     height: 920px;
-    width: 100%;
+    padding-top: 3%;
     background-color: white;
 }
 .block3_info{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 .block3_text{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-
 }
 .block4{
     width: 100%;
@@ -61,8 +60,7 @@ body{
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90%;
-
+    height: 100%;
 }
 .bloks{
     display: flex;
@@ -77,15 +75,9 @@ body{
     border-radius: 30px 30px 30px 30px;
     background: #829096;
 }
-.imgMain{
-    padding-left: 9%;
-    width: 80%;
-    height: 750px;
-    margin-top: -170px;
-}
 .header{
     display: flex;
-    width: 100%;
+    width: 99%;
     justify-content: space-around;
     align-items: center;
     height: 80px;   
@@ -112,7 +104,7 @@ body{
 .aboutus{
     display: flex;
     height: 80px;
-    width: 75%;
+    width: 70%;
     background: rgb(0, 0, 0);
     align-items: center;
     justify-content: space-around;
@@ -120,7 +112,6 @@ body{
     color: #d1cccc;
 }
 .phone{
-    margin-left: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,9 +119,11 @@ body{
 }
 .phone_number{
     color: #d1cccc;
+    font-size: 24px;
 }
 .phone_link{
     text-decoration: none;
+    font-size: 24px;
     color: #d1cccc;
 }
 .sq{
@@ -212,7 +205,7 @@ to{
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    padding-left: 20%;
+    padding-left: 50%;
     width: 100%;
     font-size: 25px;
 }
