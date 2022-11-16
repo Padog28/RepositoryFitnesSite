@@ -21,8 +21,9 @@ function submitForm(){
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(User)
         }).then((res)=>{
-            console.log(res);
+            
         })
+window.open('../MainPage/index.html', '_self')
     }
     else{
         console.log(0);
