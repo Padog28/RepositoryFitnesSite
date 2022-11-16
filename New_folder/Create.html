@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="icon" href="../pictures/ico.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+          <div class="GW">
+            <a class="lnk" style="text-decoration:none;" href="../MainPage/index.html">GW
+                Fitness
+            </a>
+          </div>
+           <div class="aboutus">
+            <a class="sq" style="text-decoration:none;" href="">О КЛУБЕ</a>
+            <a class="sq" style="text-decoration:none;" href="../services/services.html">УСЛУГИ</a>
+            <a class="sq" style="text-decoration:none;" href="">SPA</a>
+            <a class="sq" style="text-decoration:none;" href="">АБОНИМЕНТЫ</a>
+            <a class="sq" style="text-decoration:none;" href="">ТРЕНЕРЫ</a>
+            <a class="sq" style="text-decoration:none; pointer-events: none;" href="">ВОЙТИ</a>
+          </div>
+          <div class="phone">
+             <div class="phone_number">+7(960)479-86-56</div>
+             <a href="" class="phone_link">Заказать звонок</a>
+           </div>
+        </header>
+     <div class="content">
+        <div class="main_content">
+         <form action="" onsubmit="return false;" target="_blank">
+            <center>
+            <br>
+            <p class="registration">Регистрация</p>
+            <div class="inputs">
+                <div class="inputs1">
+                    <input type="text" pattern="^[А-Яа-яЁё\s]+${3}" class="user_name"  placeholder="ФИО" required name="" id="fio_field">
+                    <input type="email"  class="email" required placeholder="Email" name="email" id="email_field">
+                </div>
+                <div class="inputs1">
+                    <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="pass" required placeholder="Password" name="password" id="pass_first">
+                    <div class="pass_and_mes">
+                        <form action="#">
+                            <div class="error_text" id="error_text">Confirm Password Not Match</div>
+                            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="pass" required placeholder="Replay password" name="Replay_password" id="pass_second">
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="inputs1">
+                    <input class="login" pattern="^[a-zA-Z]+$" type="text" required placeholder="Login" name="" id="login_field">
+                </div>
+            </div>
+            <div required class="check"> 
+                <input type="checkbox" required name="" id="">
+                <span>Согласие на обработку персональных данных</span>
+            </div><br><br>
+                <button onclick="submitForm()" class="Entrance">Зарегестрироваться</button>
+            <a class="create" href="../entrance/entrance.html">Есть аккаунт? Войти →</a>
+             </center>
+        </form>
+    </div>
+     </div>    
+    </div>
+    <footer class="footer">
+        <div class="footer_content">
+            <a style="text-decoration:none;" class="footlnk" href="">О нас</a>
+            <a style="text-decoration:none;" class="footlnk" href="">Тех. поддержка</a> 
+            <a style="text-decoration:none;" class="footlnk" href="">Оставить отзыв</a>
+        </div>
+    </footer>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
