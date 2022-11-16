@@ -1,0 +1,142 @@
+body{
+    background: black;
+    font-family: Playfair Display;
+    height: 100%;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;   
+    background: #575656;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.aboutus{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
+    margin-left: 5%;
+    font-size: 24px;
+    color: #9b9b9b;
+}
+.phone{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #a8a9aa;
+}
+.phone_number{
+    color: #d1cccc;
+}
+.phone_link{
+    text-decoration: none;
+}
+.phone_link:hover{
+    animation: clr 0.4s;    
+}
+.sq{
+    color: #d1cccc;
+    padding-left: 40px;
+}
+.content {
+    min-height: calc(100vh - 150px);
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboniments{
+    background: #8f8c8c;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboniment{ 
+    background:#b8b5b5;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.img_aboniment{
+    width: 100%;
+}
+.but_sub{
+    margin-bottom: 7px;
+    width: 130%;
+    height: 40px;
+    border-radius: 15px;
+
+}
+.but_sub:hover{
+    background: #575656;
+    color: #d1cccc;
+    cursor: pointer;
+}
+.check{
+    margin-left: 8%;
+    margin-top: 2%;
+    color: #8f8c8c;
+}
+.sq{
+    color: #d1cccc;
+    padding-left: 40px;
+}
+.GW{
+    width: 10%;
+    height: 60px;
+    background: #575656;
+    font-size: 28px;
+    line-height: 10%;
+    padding-left: 5px;
+}
+.lnk{
+    line-height: 100%;
+    color: #d1cccc;
+    }
+    a{
+        color: #d1cccc;
+    }
+    .lnk:hover{
+    animation: clr 0.4s;
+    }
+    .sq:hover{
+    animation: clr 0.4s;
+    }
+    @keyframes clr{
+    from{
+        color: #d1cccc;
+    }
+    to{
+        color: black;
+    }
+    }
+    .footer{
+        height: 80px;
+        background: #575656;
+    }
+    .footer_content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footlnk{
+        font-size: 18px;
+    }
+    .footlnk:hover{
+        color: black;
+    }
