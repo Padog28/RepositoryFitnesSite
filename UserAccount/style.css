@@ -27,6 +27,7 @@ body{
 .user_namephoto{
     display: flex;
     justify-content: space-around  ;
+    padding-top: 2%;
 }
 .user_photo{
     font-size: 35px;
@@ -62,7 +63,7 @@ a{
 }
 .button1{
     margin-left: 7%;
-    width: auto;
+    width: 300px;
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
@@ -70,7 +71,7 @@ a{
 }
 .button2{
     margin-left: 7%;
-    width: auto;
+    width: 300px;
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
@@ -92,7 +93,7 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    width: 75%;
+    width: 100%;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
     margin-left: 5%;
     font-size: 24px;
@@ -105,6 +106,7 @@ a{
     align-items: center;
     justify-content: space-around;
     background: #a8a9aa;
+    width: 80%;
 }
 .phone_number{
     color: #d1cccc;
@@ -137,7 +139,7 @@ a{
     top: 60px;
 }
 .GW{
-    width: 10%;
+    width: 100%;
     height: 60px;
     background: #575656;
     font-size: 28px;
@@ -146,10 +148,17 @@ a{
 }
 .GWlink{
     line-height: 100%;
+    padding-top: 50%;
+    padding-left: 5%;
     color: #d1cccc;
 }
+.phone_link:hover{
+    color: black;
+    animation: clr 0.4s;
+
+}
 .GWlink:hover{
-    color: #797878;
+    color: black;
     animation: clr 0.4s;
 }
 .lnk{
@@ -158,9 +167,11 @@ color: #d1cccc;
 }
 .lnk:hover{
 animation: clr 0.4s;
+color: black;
 }
 .sq:hover{
 animation: clr 0.4s;
+color: black;
 }
 @keyframes clr{
 from{

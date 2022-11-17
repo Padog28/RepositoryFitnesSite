@@ -1,12 +1,10 @@
 body{
     width: auto;
-    overflow-x: hidden;
     background: white;
     height: 5470px;
 }
 .wrapper {
     min-height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -77,7 +75,7 @@ body{
 }
 .header{
     display: flex;
-    width: 99%;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     height: 80px;   
@@ -86,15 +84,15 @@ body{
     z-index: 3;
 }
 .GW{
-    width: auto;
+    width: 30%;
     height: 60px;
     background: rgb(0, 0, 0);
     font-size: 28px;
     line-height: 10%;
-    padding: 15px 0 0 20px;
 }
 .GWlink{
     line-height: 100%;
+    padding: 15px 0 0 20px;
     color: #d1cccc;
 }
 .GWlink:hover{
@@ -104,7 +102,7 @@ body{
 .aboutus{
     display: flex;
     height: 80px;
-    width: 70%;
+    width: 90%;
     background: rgb(0, 0, 0);
     align-items: center;
     justify-content: space-around;
@@ -113,6 +111,7 @@ body{
 }
 .phone{
     display: flex;
+    width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

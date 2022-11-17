@@ -26,25 +26,13 @@
 }
 .aboutus{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 60px;
     width: 100%;
-    align-items: center;
     background: linear-gradient(90deg, #575656 0%, #68686b 35%, #a8a9aa 100%);
-    margin-left: 5%;
     font-size: 24px;
     color: #9b9b9b;
-}
-.phone{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.phone_number{
-    color: #d1cccc;
-}
-.phone_link{
-    text-decoration: none;
 }
 .sq{
     color: #d1cccc;
@@ -56,11 +44,18 @@
     top: 60px;
 }
 .GW{
+    width: 80%;
     height: 60px;
     background: #575656;
     font-size: 28px;
     line-height: 10%;
     padding-left: 5px;
+}
+.GWlink{
+    line-height: 100%;
+    padding-top: 50%;
+    padding-left: 5%;
+    color: #d1cccc;
 }
 .lnk{
 line-height: 100%;
@@ -122,12 +117,12 @@ a{
 }
 .phone{
     display: flex;
+    height: 100%;
     flex-direction: column;
-    height: 60px;
     align-items: center;
     justify-content: space-around;
-    width: 160px;
     background: #a8a9aa;
+    width: 100%;
 }
 .phone_number{
     color: #d1cccc;
